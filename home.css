@@ -1,0 +1,26 @@
+.banner {
+ width: 1100px;
+ height: 600px;
+
+}
+
+.logotext {
+
+	height: 50px;
+	margin-left: : 200px;
+	font-family: cursive;
+	font-size: 30px;
+
+}
+
+.p-2 {
+
+	font-size: 22px;
+	margin-left: 30px;
+
+}
+
+.btn btn-primary {
+
+	margin-left: 200px ;
+}
