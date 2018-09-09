@@ -42,7 +42,7 @@ $("#predict-button").click(async function () {
 
     $("#prediction-list").empty();
     top5.forEach(function (p) {
-            $('#prediction-list').append('Prediction is most likely: ', p.className + ' with a probability of ', p.probability.toFixed(2));
+            $('#prediction-list').append('Disease is most likely: ', p.className + ' with a confidence of ', p.probability.toFixed(2));
         });
     });
     // '<li> ${p.className}: ${p.probability.toFixed(6)} </li>' will be used to display top5 list
