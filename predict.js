@@ -14,7 +14,7 @@ $("#file").change(function () {
 
 let model;
 (async function() {
-    model = await tf.loadModel('http://localhost:8080/tfjs-models/model/model.json');
+    model = await tf.loadModel('https://glacial-river-37235.herokuapp.com/models/model/model.json');
     $('.progress-bar').hide();
 })();
 
