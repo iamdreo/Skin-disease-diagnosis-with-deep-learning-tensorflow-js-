@@ -17,7 +17,8 @@
 
 const IMAGENET_CLASSES = {
     0: 'Pyoderma',
-    1: 'Scabies'
+    1: 'Scabies',
+    2: 'Some other thing'
     
   };
   
