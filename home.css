@@ -1,6 +1,22 @@
 .banner {
  width: 1100px;
  height: 600px;
+ margin-left: 30px;
+}
+
+.robot {
+	margin-top: 170px;
+	height: 400px;
+}
+
+.cover {
+ width: 1340px;
+ height: 900px;
+ 
+}
+.logo {
+	width: 290px;
+ height: 50px;
 
 }
 
@@ -24,3 +40,24 @@
 
 	margin-left: 200px ;
 }
+.contain {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topcenter {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
