@@ -1,3 +1,4 @@
+//open file and read image
 $("#file").change(function () {
     let reader= new FileReader();
     reader.onload = function (image) {
@@ -11,13 +12,15 @@ $("#file").change(function () {
     reader.readAsDataURL(this.files[0]);
     
 });
-
+// load model
 let model;
 (async function() {
     model = await tf.loadModel('https://glacial-river-37235.herokuapp.com/models/model.json');
+    
     $('.progress-bar').hide();
 })();
 
+//predict image
 $("#predict-button").click(async function () {
     let image = $('#selected-image').get(0);
     let offset = tf.scalar(127.5);
